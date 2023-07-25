@@ -182,6 +182,7 @@ export default function FormContact() {
                               boxShadow: "none",
                            }),
                         }}
+                        // @ts-ignore: Unreachable code error
                         options={options}
                         onChange={onChange}
                         isMulti={true}
